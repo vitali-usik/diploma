@@ -1,5 +1,9 @@
-import React from 'react';
+import React, {FunctionComponent} from 'react';
 
-const TypeScriptTest = () => <div>TS is working!</div>;
+interface Props {
+  text: string | undefined;
+}
+
+const TypeScriptTest:FunctionComponent<Props> = ({ text }) => <div>TS is working! {text}</div>;
 
 export default TypeScriptTest;
