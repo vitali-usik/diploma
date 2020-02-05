@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TypeScriptTest from "./components/TypeScriptTest";
+import TypeScriptTest from './components/TypeScriptTest';
 
 import logo from './logo.svg';
 import './App.css';
